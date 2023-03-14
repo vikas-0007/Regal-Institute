@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/registrationForm.css">
+    <title>Registration Form | Typing Test</title>
+</head>
+<body>
+    <form action="PHP/insert.php" method="post">
+        <h2>Participate <span>Form</span></h2>
+        <div id="innerForm">
+
+            <div class="field">
+                <label>Full Name</label>
+                <input id="name" name="userName" type="text">
+            </div>
+
+            <div class="field">
+                <label>Father Name</label>
+                <input id="fatherName" name="fatherName" type="text">
+            </div>
+
+            <div class="field">
+                <label>Phone Number</label>
+                <input id="phoneNumber" name="phoneNo" type="number">
+            </div>
+
+            <div id="term">
+                <input id="checkBox" type="checkbox">
+                <p><a href="">Privacy Policy</a> & <a href="">Terms & Conditions</a></p>
+            </div>
+
+            <button type="submit" name="submit" id="submitBtn">Submit</button>
+
+        </div>
+    </form>
+
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
