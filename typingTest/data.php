@@ -41,17 +41,7 @@
                         echo '<td>' . $data[$i]['fatherName'] . '</td>';
                         echo '<td>' . $data[$i]['phoneNo'] . '</td>';
                         echo '</tr>';
-                        // print_r($data);
                     }
-
-                    // for ($i=0; $i < ; $i++) { 
-                    //     echo '<tr>';
-                    //     echo '<td> 1 </td>';
-                    //     echo '<td>' . $row['name'] . '</td>';
-                    //     echo '<td>' . $row['fatherName'] . '</td>';
-                    //     echo '<td>' . $row['phoneNo'] . '</td>';
-                    //     echo '</tr>';
-                    // }   
 
 
 
