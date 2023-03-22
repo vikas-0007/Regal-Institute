@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --main-color: #ff7433;
+}
+
+body{
+    background: #fff;
+}
+
+#container{
+    width: 900px;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    margin-top: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#innerDiv1{
+    padding: 30px 30px 60px 30px;
+    background: var(--main-color);
+    width: 35%;
+    color: #fff;
+}
+
+#innerDiv2{
+    padding: 30px 30px 60px 30px;
+    width: 65%;
+}
+
+#innerDiv1 h2, #innerDiv2 h2{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#innerDiv1 p{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#innerDiv1 #firstP{
+    margin: 10px 0 23px;
+}
+
+#innerDiv1 #contactInfo .iconsBox{
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#innerDiv1 #contactInfo .iconsBox span{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#innerDiv2 h2{
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#innerDiv2 form .fields{
+    display: flex;
+    justify-content: space-between;
+}
+
+#innerDiv2 form .fields div{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+#innerDiv2 form label {
+    font-size: 14px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+#innerDiv2 form input, #innerDiv2 form textarea{
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-top: 6px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#innerDiv2 form textarea{
+    resize: none;
+    padding: 10px;
+    height: 100px;
+}
+
+#innerDiv2 form button{
+    cursor: pointer;
+    height: 38px;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    background: var(--main-color);
+    color: #fff;
+}
